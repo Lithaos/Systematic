@@ -1,0 +1,390 @@
+body {
+    font-family: Georgia, Myriad-Roman, AdobeInvisFont;
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    margin: 0 5%;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    display: flex;
+}
+
+a {
+    font-family: Georgia, Myriad-Roman, AdobeInvisFont;
+    font-size: 16pt;
+    color: rgba(186, 46, 31, 255);
+    text-align: right;
+    float: right;
+    text-decoration: none;
+}
+
+.logo {
+    float: left;
+}
+
+.social {
+    margin: 0;
+    padding: 0px;
+    margin-top: 50px;
+    padding: 0;
+    float: right;
+    display: block;
+}
+
+.social a {
+    float: none;
+}
+
+hr {
+    background-color: #666666;
+}
+
+.social li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    background-image: url(../img/social-bg.png);
+}
+
+.social li a {
+    line-height: 32px;
+    text-decoration: none;
+
+}
+
+.social li:hover {
+    background-image: url(../img/social-bg-hover.png)
+}
+
+nav {
+    background: linear-gradient(#333333, #2b2b2b);
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav ul li {
+    margin: auto;
+    display: inline-block;
+    padding: 16px 13px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: Georgia, Georgia, Myriad-Roman, AdobeInvisFont;
+    font-size: 12pt;
+}
+
+nav ul li a:hover {
+    color: #ba2e1f;
+}
+
+.intro {
+    position: relative;
+    display: inline;
+}
+
+.intro img {
+    width: 40%;
+    float: left;
+}
+
+.content {
+    padding-top: 4%;
+    width: 56%;
+    height: 100%;
+    float: right;
+}
+
+.section-3 {
+    padding: 50px 5%;
+    background-color: #f2f2f2;
+    clear: both;
+    display: table;
+}
+
+.one-third {
+    width: 31%;
+    display: table-cell;
+    padding: 0 17px;
+}
+
+.one-third ul {
+    padding: 0;
+}
+
+.one-third ul li {
+    padding-top: 17px;
+}
+
+.one-third ul li img {
+    float: left;
+    padding-right: 11px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section-4 {
+    display: table;
+}
+
+.one-fourth {
+    display: table-cell;
+    width: 25%;
+    padding: 30px 20px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 26px 5%;
+    color: #919191;
+    display: flex;
+    justify-content: space-between;
+}
+
+.one-fourth ul hr {
+    background-color: #d4d4d4;
+    color: #d4d4d4;
+}
+
+.huge {
+    font-family: Georgia, Myriad-Roman, AdobeInvisFont;
+    font-size: 76pt;
+    margin: 0;
+
+    color: rgba(0, 0, 0, 255);
+    text-align: left;
+}
+
+.content h2 {
+    font-family: Georgia, Myriad-Roman, AdobeInvisFont;
+    font-size: 16pt;
+    color: rgba(102, 102, 102, 255);
+    text-align: left;
+}
+
+.title {
+    font-family: Georgia, Myriad-Roman, AdobeInvisFont;
+    font-size: 26pt;
+    color: rgba(51, 51, 51, 255);
+    text-align: left;
+    clear: both;
+}
+
+.sub-title {
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, Georgia, Myriad-Roman, AdobeInvisFont;
+    font-size: 14pt;
+    color: rgba(135, 135, 135, 255);
+    text-align: left;
+}
+
+.one-third p {
+    margin: 13px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    font-family: Georgia, Myriad-Roman, AdobeInvisFont;
+    font-size: 13pt;
+    color: rgba(135, 135, 135, 255);
+    text-align: left;
+}
+
+.wocs-title {
+    line-height: 15px;
+    padding: 20px;
+    font-family: Georgia, Georgia, Myriad-Roman, AdobeInvisFont;
+    font-size: 16pt;
+    color: rgba(152, 152, 152, 255);
+    text-align: left;
+}
+
+.one-third a {
+    padding: 10px;
+    font-family: Georgia, Myriad-Roman, AdobeInvisFont;
+    font-size: 13pt;
+    color: rgba(185, 45, 31, 255);
+    text-align: right;
+}
+
+.s4-title {
+    font-family: Georgia, Georgia, Myriad-Roman, AdobeInvisFont;
+    font-size: 16pt;
+    color: rgba(102, 102, 102, 255);
+    text-align: left;
+}
+
+.quick {
+    font-family: Georgia, Myriad-Roman, AdobeInvisFont;
+    font-size: 12pt;
+    color: rgba(102, 102, 102, 255);
+}
+
+.latest {
+    font-family: Georgia, Myriad-Roman, AdobeInvisFont;
+    font-size: 12pt;
+    color: #666666;
+    text-align: left;
+}
+
+.one-fourth h4 {
+    font-family: Georgia, Myriad-Roman, AdobeInvisFont;
+    color: #666666;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    margin: 0;
+
+}
+
+.one-fourth hr {
+    margin: 3px 0;
+}
+
+.one-fourth h5 {
+    font-family: Georgia, Myriad-Roman, AdobeInvisFont;
+    color: #666666;
+    font-size: 7pt;
+    padding: 0;
+    margin: 0;
+}
+
+.one-fourth a {
+    font-size: 10pt;
+    text-transform: capitalize;
+    margin: 10px;
+}
+
+.lbp {
+    font-size: 10pt;
+    color: #666666;
+}
+
+input {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border: none;
+    font-family: Arial, Georgia, Myriad-Roman, AdobeInvisFont;
+    font-size: 13pt;
+    padding: 10px;
+    margin: 5px 0px;
+    color: rgba(152, 152, 152, 255);
+    display: block;
+}
+
+input[name="message"] {
+    height: 100px;
+}
+
+input[value="Submit"] {
+    padding: 10px 15px;
+    color: rgba(186, 46, 31, 255);
+}
+
+.logo h1 {
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.logo h3 {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width:1001px) {
+    .one-third,
+    .one-fourth {
+        width: 100%;
+        display: block;
+    }
+    .menu-trigger {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+
+    nav ul {
+        list-style: none;
+        margin: auto;
+    }
+
+    nav ul li {
+        margin-bottom: 1px;
+        width: 100%;
+    }
+
+    nav ul li a {
+        margin: auto;
+        float: left;
+        font-weight: 700;
+        text-decoration: none;
+        color: #fff;
+        padding: 12px 20px;
+    }
+
+    nav ul li a:hover {
+        color: #ba2e1f;
+    }
+    .intro img {
+        display: none;
+
+    }
+    .content {
+        width: 100%;
+        padding: 0;
+        margin-top: 0px;
+    }
+    .huge {
+        font-size: 30pt;
+    }
+
+}
+
+@media (min-width: 1000px) {
+
+    .menu-trigger {
+        display: none;
+    }
+
+    nav ul {
+        list-style: none;
+    }
+
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-family: Georgia, Georgia, Myriad-Roman, AdobeInvisFont;
+        font-size: 12pt;
+    }
+
+    nav ul li a:hover {
+        color: #ba2e1f;
+    }
+}
+
+.menu-trigger {
+    color: #FFF;
+    background: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 0 0 5px;
+    cursor: pointer;
+}
